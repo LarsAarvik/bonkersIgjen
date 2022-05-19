@@ -1,0 +1,48 @@
+.modal
+    opacity: 0
+    visibility: hidden
+    position: fixed
+    z-index: 1
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    overflow: auto
+    background-color: rgba($color: #000000, $alpha: 0.4)
+    transition: 0.3s ease-in-out
+
+    &.active
+        opacity: 1
+        visibility: visible
+
+    &--content
+        width: 500px
+        margin: 15% auto
+        background-color: white
+        position: relative
+        transition: inherit
+        opacity: 0
+        visibility: hidden
+        transform: translateY(-100px)
+
+    &.active &--content
+        opacity: 1
+        visibility: visible
+        transform: translateY(0)
+
+    &--header,
+    &--body,
+    &--footer
+        padding: 16px 20px
+        
+    &--close
+        position: absolute
+        top: 16px
+        right: 20px
+        font-size: 1.5rem
+        cursor: pointer
+        color: gray
+
+        &:hover
+            color: black
+            transition: 0.2s ease-in-out

@@ -1,0 +1,32 @@
+.main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.filter-container {
+  width: 20%;
+}
+
+.listings-container {
+  width: 80%;
+  overflow-y: scroll;
+}
+
+.listings-search {
+  margin: 8rem 0 1rem 1rem;
+  width: 85%;
+}
+
+.listings-search h3 {
+  margin: 0 0 0.2rem 0.2rem;
+}
+
+.listings-search input {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 24px;
+  border: lightgray 1px solid;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=mainContent.css.map */

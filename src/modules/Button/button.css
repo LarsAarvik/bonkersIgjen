@@ -1,0 +1,16 @@
+.button {
+  color: white;
+  font-size: 18px;
+  background: #0072d6;
+  border: none;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.button:hover {
+  background: #0080f0;
+}
+/*# sourceMappingURL=button.css.map */

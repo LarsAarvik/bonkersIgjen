@@ -1,0 +1,94 @@
+.listing-container {
+  width: 25%;
+  border-radius: 20px;
+  float: left;
+  margin: 1rem;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.listing-container:hover {
+  cursor: pointer;
+  background: #d2dfee;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.listing-container img {
+  height: 200px;
+  width: auto;
+  border-radius: 20px 20px 0 0;
+}
+
+.img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bid-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+}
+
+.bid-input h4 {
+  margin: auto;
+  font-size: 14px;
+}
+
+.bid-input input {
+  width: 100%;
+  border-radius: 0 0 0 20px;
+  border: gray 1px solid;
+  padding-left: 0.5rem;
+  background: #F6F6F6;
+}
+
+.bid-input button {
+  padding: 0.5rem 1rem;
+  border: gray 1px solid;
+  border-radius: 0 0 20px 0;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.listing-title {
+  margin: 0 0.5rem;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+.listing-info {
+  margin: 0 0.5rem;
+  padding-bottom: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 24px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
+
+.listing-bid {
+  color: #3eb603;
+}
+
+.red {
+  color: red;
+  background: red;
+}
+
+img {
+  width: 100%;
+}
+/*# sourceMappingURL=listingCard.css.map */

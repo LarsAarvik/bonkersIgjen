@@ -1,0 +1,12 @@
+html, body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  background: #E5E5E5;
+}
+
+#app--content {
+  max-width: 1000px;
+  margin: auto;
+  background: #F6F6F6;
+}
+/*# sourceMappingURL=styles.css.map */

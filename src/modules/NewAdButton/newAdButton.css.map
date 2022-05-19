@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAC;EACT,MAAM,EAAE,KAAK;CAAG;;AAEpB,AAAA,MAAM,CAAC;EACH,KAAK,EAAE,GAAG;EACV,WAAW,EAAE,IAAI;EACjB,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,IAAI;CAAG",
+    "sources": [
+        "newAdButton.sass"
+    ],
+    "names": [],
+    "file": "newAdButton.css"
+}

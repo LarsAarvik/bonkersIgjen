@@ -1,0 +1,11 @@
+.content {
+  margin-top: 100px;
+  padding: 10px 20px 10px 30px;
+}
+
+.scroll {
+  height: 200px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+/*# sourceMappingURL=filter.css.map */
